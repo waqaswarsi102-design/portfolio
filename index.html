@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Lifestyle Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">HealthyLife</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tips">Tips</a></li>
+                    <li><a href="#recipes">Menu</a></li>
+                    <li><a href="#bmi-calculator">BMI Calculator</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Stay Healthy, Stay Happy!</h1>
+            <p>Your journey to a healthy life starts here.</p>
+            <a href="#tips" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="tips" class="tips-section">
+        <div class="container">
+            <h2>Healthy Tips</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <img src="./assets/exercise_icon.png" alt="Exercise Icon">
+                    <h3>Exercise Daily</h3>
+                    <p>Regular physical activity improves your health and reduces the risk of many diseases.</p>
+                </div>
+                <div class="tip-card">
+                    <img src="./assets/nutrition_icon.png" alt="Food Icon">
+                    <h3>Eat Fresh Food</h3>
+                    <p>A balanced diet rich in wholesome foods is essential for healthy living.</p>
+                </div>
+                <div class="tip-card">
+                    <img src="./assets/hydration_icon.png" alt="Water Icon">
+                    <h3>Drink More Water</h3>
+                    <p>Staying hydrated is crucial for maintaining bodily functions and overall health.</p>
+                </div>
+                <div class="tip-card">
+                    <img src="./assets/sleep_icon.png" alt="Sleep Icon">
+                    <h3>Sleep Well</h3>
+                    <p>Adequate sleep is vital for physical and mental well-being.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recipes" class="recipes-section">
+        <div class="container">
+            <h2>Healthy Recipes</h2>
+            <div class="recipes-grid">
+                <div class="recipe-card">
+                    <img src="./assets/recipe_salad.png" alt="Salad Recipe">
+                    <h3>Fresh Garden Salad</h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="./assets/recipe_smoothie.png" alt="Smoothie Recipe">
+                    <h3>Berry Smoothies</h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="./assets/recipe_chicken.png" alt="Chicken Recipe">
+                    <h3>Grilled Chicken with Vegetables</h3>
+                </div>
+                <div class="recipe-card">
+                    <img src="./assets/recipe_soup.png" alt="Soup Recipe">
+                    <h3>Hearty Lentil Soup</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bmi-calculator" class="bmi-calculator-section">
+        <div class="container">
+            <h2>BMI Calculator</h2>
+            <div class="bmi-form">
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" placeholder="e.g., 170">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" placeholder="e.g., 65">
+                <button id="calculate-bmi">Calculate BMI</button>
+                <p>Your BMI: <span id="bmi-result"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 HealthyLife. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><img src="./assets/facebook_icon.png" alt="Facebook"></a>
+                <a href="#"><img src="./assets/twitter_icon.png" alt="Twitter"></a>
+                <a href="#"><img src="./assets/instagram_icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
